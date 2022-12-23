@@ -1,0 +1,8 @@
+N:\WPF Messanger\Server\Server\obj\Debug\Server.csproj.AssemblyReference.cache
+N:\WPF Messanger\Server\Server\obj\Debug\Server.csproj.SuggestedBindingRedirects.cache
+N:\WPF Messanger\Server\Server\obj\Debug\Server.csproj.CoreCompileInputs.cache
+N:\WPF Messanger\Server\Server\bin\Debug\Server.exe.config
+N:\WPF Messanger\Server\Server\bin\Debug\Server.exe
+N:\WPF Messanger\Server\Server\bin\Debug\Server.pdb
+N:\WPF Messanger\Server\Server\obj\Debug\Server.exe
+N:\WPF Messanger\Server\Server\obj\Debug\Server.pdb

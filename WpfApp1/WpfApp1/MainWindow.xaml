@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="Shershnyagis Messenger" Height="500" Width="300">
+    <Grid Background="#a5acbd">
+        <Border MinWidth="20" Margin="20" Background="#fff" VerticalAlignment="Center" Padding="10" MaxWidth="300" CornerRadius="20">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="30" Color="Black" ShadowDepth="5"></DropShadowEffect>
+            </Border.Effect>
+            <StackPanel>
+                <TextBlock Text="Shershnyagis Messenger" FontWeight="UltraBold" Margin="0 0 0 20" HorizontalAlignment="Center"/>
+                <TextBox materialDesign:HintAssist.Hint="Enter Server IP" x:Name="ServerIp" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox materialDesign:HintAssist.Hint="Enter Server Port" x:Name="ServerPort" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox materialDesign:HintAssist.Hint="Enter Server Password" x:Name="ServerPassword" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <TextBox materialDesign:HintAssist.Hint="Enter Nickname" x:Name="ServerNickname" Style="{StaticResource MaterialDesignFloatingHintTextBox}"/>
+                <Button Content="Join" Margin="0 20" Style="{StaticResource MaterialDesignFlatMidBgButton}" Click="Join_To_Server"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
